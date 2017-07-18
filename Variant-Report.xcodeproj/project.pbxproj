@@ -14,6 +14,71 @@
 		5336F6F71F1EC0BC001D0F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5336F6F51F1EC0BC001D0F7A /* Main.storyboard */; };
 		5336F7021F1EC0BD001D0F7A /* Variant_ReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F7011F1EC0BD001D0F7A /* Variant_ReportTests.swift */; };
 		5336F70D1F1EC0BD001D0F7A /* Variant_ReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F70C1F1EC0BD001D0F7A /* Variant_ReportUITests.swift */; };
+		53E209EC1F1EC24700A7F9A3 /* VariantReportForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E209EB1F1EC24700A7F9A3 /* VariantReportForm.swift */; };
+		53E20A371F1EC26400A7F9A3 /* Adler32.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F01F1EC26400A7F9A3 /* Adler32.cs */; };
+		53E20A381F1EC26400A7F9A3 /* CRC32.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F11F1EC26400A7F9A3 /* CRC32.cs */; };
+		53E20A391F1EC26400A7F9A3 /* IChecksum.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F21F1EC26400A7F9A3 /* IChecksum.cs */; };
+		53E20A3A1F1EC26400A7F9A3 /* StrangeCRC.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F31F1EC26400A7F9A3 /* StrangeCRC.cs */; };
+		53E20A3B1F1EC26400A7F9A3 /* FileSystemScanner.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F51F1EC26400A7F9A3 /* FileSystemScanner.cs */; };
+		53E20A3C1F1EC26400A7F9A3 /* INameTransform.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F61F1EC26400A7F9A3 /* INameTransform.cs */; };
+		53E20A3D1F1EC26400A7F9A3 /* IScanFilter.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F71F1EC26400A7F9A3 /* IScanFilter.cs */; };
+		53E20A3E1F1EC26400A7F9A3 /* NameFilter.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F81F1EC26400A7F9A3 /* NameFilter.cs */; };
+		53E20A3F1F1EC26400A7F9A3 /* PathFilter.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F91F1EC26400A7F9A3 /* PathFilter.cs */; };
+		53E20A401F1EC26400A7F9A3 /* StreamUtils.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209FA1F1EC26400A7F9A3 /* StreamUtils.cs */; };
+		53E20A411F1EC26400A7F9A3 /* WindowsPathUtils.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209FB1F1EC26400A7F9A3 /* WindowsPathUtils.cs */; };
+		53E20A421F1EC26400A7F9A3 /* GZIPConstants.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209FD1F1EC26400A7F9A3 /* GZIPConstants.cs */; };
+		53E20A431F1EC26400A7F9A3 /* GZipException.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209FE1F1EC26400A7F9A3 /* GZipException.cs */; };
+		53E20A441F1EC26400A7F9A3 /* GzipInputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209FF1F1EC26400A7F9A3 /* GzipInputStream.cs */; };
+		53E20A451F1EC26400A7F9A3 /* GzipOutputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A001F1EC26400A7F9A3 /* GzipOutputStream.cs */; };
+		53E20A461F1EC26400A7F9A3 /* ICloneable.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A011F1EC26400A7F9A3 /* ICloneable.cs */; };
+		53E20A471F1EC26400A7F9A3 /* SharpZipBaseException.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A021F1EC26400A7F9A3 /* SharpZipBaseException.cs */; };
+		53E20A481F1EC26400A7F9A3 /* InvalidHeaderException.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A041F1EC26400A7F9A3 /* InvalidHeaderException.cs */; };
+		53E20A491F1EC26400A7F9A3 /* TarArchive.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A051F1EC26400A7F9A3 /* TarArchive.cs */; };
+		53E20A4A1F1EC26400A7F9A3 /* TarBuffer.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A061F1EC26400A7F9A3 /* TarBuffer.cs */; };
+		53E20A4B1F1EC26400A7F9A3 /* TarEntry.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A071F1EC26400A7F9A3 /* TarEntry.cs */; };
+		53E20A4C1F1EC26400A7F9A3 /* TarException.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A081F1EC26400A7F9A3 /* TarException.cs */; };
+		53E20A4D1F1EC26400A7F9A3 /* TarHeader.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A091F1EC26400A7F9A3 /* TarHeader.cs */; };
+		53E20A4E1F1EC26400A7F9A3 /* TarInputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A0A1F1EC26400A7F9A3 /* TarInputStream.cs */; };
+		53E20A4F1F1EC26400A7F9A3 /* TarOutputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A0B1F1EC26400A7F9A3 /* TarOutputStream.cs */; };
+		53E20A501F1EC26400A7F9A3 /* Deflater.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A0E1F1EC26400A7F9A3 /* Deflater.cs */; };
+		53E20A511F1EC26400A7F9A3 /* DeflaterConstants.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A0F1F1EC26400A7F9A3 /* DeflaterConstants.cs */; };
+		53E20A521F1EC26400A7F9A3 /* DeflaterEngine.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A101F1EC26400A7F9A3 /* DeflaterEngine.cs */; };
+		53E20A531F1EC26400A7F9A3 /* DeflaterHuffman.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A111F1EC26400A7F9A3 /* DeflaterHuffman.cs */; };
+		53E20A541F1EC26400A7F9A3 /* DeflaterPending.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A121F1EC26400A7F9A3 /* DeflaterPending.cs */; };
+		53E20A551F1EC26400A7F9A3 /* Inflater.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A131F1EC26400A7F9A3 /* Inflater.cs */; };
+		53E20A561F1EC26400A7F9A3 /* InflaterDynHeader.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A141F1EC26400A7F9A3 /* InflaterDynHeader.cs */; };
+		53E20A571F1EC26400A7F9A3 /* InflaterHuffmanTree.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A151F1EC26400A7F9A3 /* InflaterHuffmanTree.cs */; };
+		53E20A581F1EC26400A7F9A3 /* PendingBuffer.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A161F1EC26400A7F9A3 /* PendingBuffer.cs */; };
+		53E20A591F1EC26400A7F9A3 /* DeflaterOutputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A181F1EC26400A7F9A3 /* DeflaterOutputStream.cs */; };
+		53E20A5A1F1EC26400A7F9A3 /* InflaterInputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A191F1EC26400A7F9A3 /* InflaterInputStream.cs */; };
+		53E20A5B1F1EC26400A7F9A3 /* OutputWindow.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A1A1F1EC26400A7F9A3 /* OutputWindow.cs */; };
+		53E20A5C1F1EC26400A7F9A3 /* StreamManipulator.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A1B1F1EC26400A7F9A3 /* StreamManipulator.cs */; };
+		53E20A5D1F1EC26400A7F9A3 /* FastZip.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A1C1F1EC26400A7F9A3 /* FastZip.cs */; };
+		53E20A5E1F1EC26400A7F9A3 /* IEntryFactory.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A1D1F1EC26400A7F9A3 /* IEntryFactory.cs */; };
+		53E20A5F1F1EC26400A7F9A3 /* WindowsNameTransform.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A1E1F1EC26400A7F9A3 /* WindowsNameTransform.cs */; };
+		53E20A601F1EC26400A7F9A3 /* ZipConstants.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A1F1F1EC26400A7F9A3 /* ZipConstants.cs */; };
+		53E20A611F1EC26400A7F9A3 /* ZipEntry.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A201F1EC26400A7F9A3 /* ZipEntry.cs */; };
+		53E20A621F1EC26400A7F9A3 /* ZipEntryFactory.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A211F1EC26400A7F9A3 /* ZipEntryFactory.cs */; };
+		53E20A631F1EC26400A7F9A3 /* ZipException.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A221F1EC26400A7F9A3 /* ZipException.cs */; };
+		53E20A641F1EC26400A7F9A3 /* ZipExtraData.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A231F1EC26400A7F9A3 /* ZipExtraData.cs */; };
+		53E20A651F1EC26400A7F9A3 /* ZipFile.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A241F1EC26400A7F9A3 /* ZipFile.cs */; };
+		53E20A661F1EC26400A7F9A3 /* ZipHelperStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A251F1EC26400A7F9A3 /* ZipHelperStream.cs */; };
+		53E20A671F1EC26400A7F9A3 /* ZipInputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A261F1EC26400A7F9A3 /* ZipInputStream.cs */; };
+		53E20A681F1EC26400A7F9A3 /* ZipNameTransform.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A271F1EC26400A7F9A3 /* ZipNameTransform.cs */; };
+		53E20A691F1EC26400A7F9A3 /* ZipOutputStream.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A281F1EC26400A7F9A3 /* ZipOutputStream.cs */; };
+		53E20A6A1F1EC26400A7F9A3 /* app.conf in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A291F1EC26400A7F9A3 /* app.conf */; };
+		53E20A6B1F1EC26400A7F9A3 /* dna.ico in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A2A1F1EC26400A7F9A3 /* dna.ico */; };
+		53E20A6C1F1EC26400A7F9A3 /* Program.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A2B1F1EC26400A7F9A3 /* Program.cs */; };
+		53E20A6D1F1EC26400A7F9A3 /* AssemblyInfo.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A2D1F1EC26400A7F9A3 /* AssemblyInfo.cs */; };
+		53E20A6E1F1EC26400A7F9A3 /* Resources.Designer.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A2E1F1EC26400A7F9A3 /* Resources.Designer.cs */; };
+		53E20A6F1F1EC26400A7F9A3 /* Resources.resx in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A2F1F1EC26400A7F9A3 /* Resources.resx */; };
+		53E20A701F1EC26400A7F9A3 /* Settings.Designer.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A301F1EC26400A7F9A3 /* Settings.Designer.cs */; };
+		53E20A711F1EC26400A7F9A3 /* Settings.settings in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A311F1EC26400A7F9A3 /* Settings.settings */; };
+		53E20A721F1EC26400A7F9A3 /* Variant Report.csproj in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A321F1EC26400A7F9A3 /* Variant Report.csproj */; };
+		53E20A731F1EC26400A7F9A3 /* Variant Report.sln in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A331F1EC26400A7F9A3 /* Variant Report.sln */; };
+		53E20A741F1EC26400A7F9A3 /* VariantReportFrm.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A341F1EC26400A7F9A3 /* VariantReportFrm.cs */; };
+		53E20A751F1EC26400A7F9A3 /* VariantReportFrm.Designer.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A351F1EC26400A7F9A3 /* VariantReportFrm.Designer.cs */; };
+		53E20A761F1EC26400A7F9A3 /* VariantReportFrm.resx in Resources */ = {isa = PBXBuildFile; fileRef = 53E20A361F1EC26400A7F9A3 /* VariantReportFrm.resx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +112,71 @@
 		5336F7081F1EC0BD001D0F7A /* Variant-ReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Variant-ReportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336F70C1F1EC0BD001D0F7A /* Variant_ReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant_ReportUITests.swift; sourceTree = "<group>"; };
 		5336F70E1F1EC0BD001D0F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53E209EB1F1EC24700A7F9A3 /* VariantReportForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantReportForm.swift; sourceTree = "<group>"; };
+		53E209F01F1EC26400A7F9A3 /* Adler32.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Adler32.cs; sourceTree = "<group>"; };
+		53E209F11F1EC26400A7F9A3 /* CRC32.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CRC32.cs; sourceTree = "<group>"; };
+		53E209F21F1EC26400A7F9A3 /* IChecksum.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IChecksum.cs; sourceTree = "<group>"; };
+		53E209F31F1EC26400A7F9A3 /* StrangeCRC.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StrangeCRC.cs; sourceTree = "<group>"; };
+		53E209F51F1EC26400A7F9A3 /* FileSystemScanner.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FileSystemScanner.cs; sourceTree = "<group>"; };
+		53E209F61F1EC26400A7F9A3 /* INameTransform.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INameTransform.cs; sourceTree = "<group>"; };
+		53E209F71F1EC26400A7F9A3 /* IScanFilter.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IScanFilter.cs; sourceTree = "<group>"; };
+		53E209F81F1EC26400A7F9A3 /* NameFilter.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NameFilter.cs; sourceTree = "<group>"; };
+		53E209F91F1EC26400A7F9A3 /* PathFilter.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PathFilter.cs; sourceTree = "<group>"; };
+		53E209FA1F1EC26400A7F9A3 /* StreamUtils.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StreamUtils.cs; sourceTree = "<group>"; };
+		53E209FB1F1EC26400A7F9A3 /* WindowsPathUtils.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WindowsPathUtils.cs; sourceTree = "<group>"; };
+		53E209FD1F1EC26400A7F9A3 /* GZIPConstants.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GZIPConstants.cs; sourceTree = "<group>"; };
+		53E209FE1F1EC26400A7F9A3 /* GZipException.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GZipException.cs; sourceTree = "<group>"; };
+		53E209FF1F1EC26400A7F9A3 /* GzipInputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GzipInputStream.cs; sourceTree = "<group>"; };
+		53E20A001F1EC26400A7F9A3 /* GzipOutputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GzipOutputStream.cs; sourceTree = "<group>"; };
+		53E20A011F1EC26400A7F9A3 /* ICloneable.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ICloneable.cs; sourceTree = "<group>"; };
+		53E20A021F1EC26400A7F9A3 /* SharpZipBaseException.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SharpZipBaseException.cs; sourceTree = "<group>"; };
+		53E20A041F1EC26400A7F9A3 /* InvalidHeaderException.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InvalidHeaderException.cs; sourceTree = "<group>"; };
+		53E20A051F1EC26400A7F9A3 /* TarArchive.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TarArchive.cs; sourceTree = "<group>"; };
+		53E20A061F1EC26400A7F9A3 /* TarBuffer.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TarBuffer.cs; sourceTree = "<group>"; };
+		53E20A071F1EC26400A7F9A3 /* TarEntry.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TarEntry.cs; sourceTree = "<group>"; };
+		53E20A081F1EC26400A7F9A3 /* TarException.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TarException.cs; sourceTree = "<group>"; };
+		53E20A091F1EC26400A7F9A3 /* TarHeader.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TarHeader.cs; sourceTree = "<group>"; };
+		53E20A0A1F1EC26400A7F9A3 /* TarInputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TarInputStream.cs; sourceTree = "<group>"; };
+		53E20A0B1F1EC26400A7F9A3 /* TarOutputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = TarOutputStream.cs; sourceTree = "<group>"; };
+		53E20A0E1F1EC26400A7F9A3 /* Deflater.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Deflater.cs; sourceTree = "<group>"; };
+		53E20A0F1F1EC26400A7F9A3 /* DeflaterConstants.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeflaterConstants.cs; sourceTree = "<group>"; };
+		53E20A101F1EC26400A7F9A3 /* DeflaterEngine.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeflaterEngine.cs; sourceTree = "<group>"; };
+		53E20A111F1EC26400A7F9A3 /* DeflaterHuffman.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeflaterHuffman.cs; sourceTree = "<group>"; };
+		53E20A121F1EC26400A7F9A3 /* DeflaterPending.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeflaterPending.cs; sourceTree = "<group>"; };
+		53E20A131F1EC26400A7F9A3 /* Inflater.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Inflater.cs; sourceTree = "<group>"; };
+		53E20A141F1EC26400A7F9A3 /* InflaterDynHeader.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InflaterDynHeader.cs; sourceTree = "<group>"; };
+		53E20A151F1EC26400A7F9A3 /* InflaterHuffmanTree.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InflaterHuffmanTree.cs; sourceTree = "<group>"; };
+		53E20A161F1EC26400A7F9A3 /* PendingBuffer.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = PendingBuffer.cs; sourceTree = "<group>"; };
+		53E20A181F1EC26400A7F9A3 /* DeflaterOutputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DeflaterOutputStream.cs; sourceTree = "<group>"; };
+		53E20A191F1EC26400A7F9A3 /* InflaterInputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = InflaterInputStream.cs; sourceTree = "<group>"; };
+		53E20A1A1F1EC26400A7F9A3 /* OutputWindow.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OutputWindow.cs; sourceTree = "<group>"; };
+		53E20A1B1F1EC26400A7F9A3 /* StreamManipulator.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = StreamManipulator.cs; sourceTree = "<group>"; };
+		53E20A1C1F1EC26400A7F9A3 /* FastZip.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = FastZip.cs; sourceTree = "<group>"; };
+		53E20A1D1F1EC26400A7F9A3 /* IEntryFactory.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IEntryFactory.cs; sourceTree = "<group>"; };
+		53E20A1E1F1EC26400A7F9A3 /* WindowsNameTransform.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = WindowsNameTransform.cs; sourceTree = "<group>"; };
+		53E20A1F1F1EC26400A7F9A3 /* ZipConstants.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipConstants.cs; sourceTree = "<group>"; };
+		53E20A201F1EC26400A7F9A3 /* ZipEntry.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipEntry.cs; sourceTree = "<group>"; };
+		53E20A211F1EC26400A7F9A3 /* ZipEntryFactory.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipEntryFactory.cs; sourceTree = "<group>"; };
+		53E20A221F1EC26400A7F9A3 /* ZipException.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipException.cs; sourceTree = "<group>"; };
+		53E20A231F1EC26400A7F9A3 /* ZipExtraData.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipExtraData.cs; sourceTree = "<group>"; };
+		53E20A241F1EC26400A7F9A3 /* ZipFile.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipFile.cs; sourceTree = "<group>"; };
+		53E20A251F1EC26400A7F9A3 /* ZipHelperStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipHelperStream.cs; sourceTree = "<group>"; };
+		53E20A261F1EC26400A7F9A3 /* ZipInputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipInputStream.cs; sourceTree = "<group>"; };
+		53E20A271F1EC26400A7F9A3 /* ZipNameTransform.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipNameTransform.cs; sourceTree = "<group>"; };
+		53E20A281F1EC26400A7F9A3 /* ZipOutputStream.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipOutputStream.cs; sourceTree = "<group>"; };
+		53E20A291F1EC26400A7F9A3 /* app.conf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = app.conf; sourceTree = "<group>"; };
+		53E20A2A1F1EC26400A7F9A3 /* dna.ico */ = {isa = PBXFileReference; lastKnownFileType = image.ico; path = dna.ico; sourceTree = "<group>"; };
+		53E20A2B1F1EC26400A7F9A3 /* Program.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Program.cs; sourceTree = "<group>"; };
+		53E20A2D1F1EC26400A7F9A3 /* AssemblyInfo.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AssemblyInfo.cs; sourceTree = "<group>"; };
+		53E20A2E1F1EC26400A7F9A3 /* Resources.Designer.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Resources.Designer.cs; sourceTree = "<group>"; };
+		53E20A2F1F1EC26400A7F9A3 /* Resources.resx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Resources.resx; sourceTree = "<group>"; };
+		53E20A301F1EC26400A7F9A3 /* Settings.Designer.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Settings.Designer.cs; sourceTree = "<group>"; };
+		53E20A311F1EC26400A7F9A3 /* Settings.settings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Settings.settings; sourceTree = "<group>"; };
+		53E20A321F1EC26400A7F9A3 /* Variant Report.csproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Variant Report.csproj"; sourceTree = "<group>"; };
+		53E20A331F1EC26400A7F9A3 /* Variant Report.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Variant Report.sln"; sourceTree = "<group>"; };
+		53E20A341F1EC26400A7F9A3 /* VariantReportFrm.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VariantReportFrm.cs; sourceTree = "<group>"; };
+		53E20A351F1EC26400A7F9A3 /* VariantReportFrm.Designer.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = VariantReportFrm.Designer.cs; sourceTree = "<group>"; };
+		53E20A361F1EC26400A7F9A3 /* VariantReportFrm.resx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = VariantReportFrm.resx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +227,11 @@
 		5336F6EC1F1EC0BC001D0F7A /* Variant-Report */ = {
 			isa = PBXGroup;
 			children = (
-				5336F6ED1F1EC0BC001D0F7A /* AppDelegate.swift */,
-				5336F6EF1F1EC0BC001D0F7A /* ViewController.swift */,
-				5336F6F11F1EC0BC001D0F7A /* Document.swift */,
-				5336F6F31F1EC0BC001D0F7A /* Assets.xcassets */,
-				5336F6F51F1EC0BC001D0F7A /* Main.storyboard */,
-				5336F6F81F1EC0BC001D0F7A /* Info.plist */,
+				53E209ED1F1EC24C00A7F9A3 /* Original Files */,
+				53E209EA1F1EC23400A7F9A3 /* Model */,
+				53E209E91F1EC21500A7F9A3 /* View */,
+				53E209E71F1EC1FA00A7F9A3 /* Controller */,
+				53E209E81F1EC20800A7F9A3 /* Support */,
 			);
 			path = "Variant-Report";
 			sourceTree = "<group>";
@@ -123,6 +252,184 @@
 				5336F70E1F1EC0BD001D0F7A /* Info.plist */,
 			);
 			path = "Variant-ReportUITests";
+			sourceTree = "<group>";
+		};
+		53E209E71F1EC1FA00A7F9A3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5336F6EF1F1EC0BC001D0F7A /* ViewController.swift */,
+				5336F6F11F1EC0BC001D0F7A /* Document.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		53E209E81F1EC20800A7F9A3 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				5336F6ED1F1EC0BC001D0F7A /* AppDelegate.swift */,
+				5336F6F31F1EC0BC001D0F7A /* Assets.xcassets */,
+				5336F6F81F1EC0BC001D0F7A /* Info.plist */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		53E209E91F1EC21500A7F9A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5336F6F51F1EC0BC001D0F7A /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		53E209EA1F1EC23400A7F9A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				53E209EB1F1EC24700A7F9A3 /* VariantReportForm.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		53E209ED1F1EC24C00A7F9A3 /* Original Files */ = {
+			isa = PBXGroup;
+			children = (
+				53E209EE1F1EC26400A7F9A3 /* zip2 */,
+				53E20A291F1EC26400A7F9A3 /* app.conf */,
+				53E20A2A1F1EC26400A7F9A3 /* dna.ico */,
+				53E20A2B1F1EC26400A7F9A3 /* Program.cs */,
+				53E20A2C1F1EC26400A7F9A3 /* Properties */,
+				53E20A321F1EC26400A7F9A3 /* Variant Report.csproj */,
+				53E20A331F1EC26400A7F9A3 /* Variant Report.sln */,
+				53E20A341F1EC26400A7F9A3 /* VariantReportFrm.cs */,
+				53E20A351F1EC26400A7F9A3 /* VariantReportFrm.Designer.cs */,
+				53E20A361F1EC26400A7F9A3 /* VariantReportFrm.resx */,
+			);
+			name = "Original Files";
+			sourceTree = "<group>";
+		};
+		53E209EE1F1EC26400A7F9A3 /* zip2 */ = {
+			isa = PBXGroup;
+			children = (
+				53E209EF1F1EC26400A7F9A3 /* Checksums */,
+				53E209F41F1EC26400A7F9A3 /* Core */,
+				53E209FC1F1EC26400A7F9A3 /* GZip */,
+				53E20A011F1EC26400A7F9A3 /* ICloneable.cs */,
+				53E20A021F1EC26400A7F9A3 /* SharpZipBaseException.cs */,
+				53E20A031F1EC26400A7F9A3 /* Tar */,
+				53E20A0C1F1EC26400A7F9A3 /* Zip */,
+			);
+			path = zip2;
+			sourceTree = "<group>";
+		};
+		53E209EF1F1EC26400A7F9A3 /* Checksums */ = {
+			isa = PBXGroup;
+			children = (
+				53E209F01F1EC26400A7F9A3 /* Adler32.cs */,
+				53E209F11F1EC26400A7F9A3 /* CRC32.cs */,
+				53E209F21F1EC26400A7F9A3 /* IChecksum.cs */,
+				53E209F31F1EC26400A7F9A3 /* StrangeCRC.cs */,
+			);
+			path = Checksums;
+			sourceTree = "<group>";
+		};
+		53E209F41F1EC26400A7F9A3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				53E209F51F1EC26400A7F9A3 /* FileSystemScanner.cs */,
+				53E209F61F1EC26400A7F9A3 /* INameTransform.cs */,
+				53E209F71F1EC26400A7F9A3 /* IScanFilter.cs */,
+				53E209F81F1EC26400A7F9A3 /* NameFilter.cs */,
+				53E209F91F1EC26400A7F9A3 /* PathFilter.cs */,
+				53E209FA1F1EC26400A7F9A3 /* StreamUtils.cs */,
+				53E209FB1F1EC26400A7F9A3 /* WindowsPathUtils.cs */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		53E209FC1F1EC26400A7F9A3 /* GZip */ = {
+			isa = PBXGroup;
+			children = (
+				53E209FD1F1EC26400A7F9A3 /* GZIPConstants.cs */,
+				53E209FE1F1EC26400A7F9A3 /* GZipException.cs */,
+				53E209FF1F1EC26400A7F9A3 /* GzipInputStream.cs */,
+				53E20A001F1EC26400A7F9A3 /* GzipOutputStream.cs */,
+			);
+			path = GZip;
+			sourceTree = "<group>";
+		};
+		53E20A031F1EC26400A7F9A3 /* Tar */ = {
+			isa = PBXGroup;
+			children = (
+				53E20A041F1EC26400A7F9A3 /* InvalidHeaderException.cs */,
+				53E20A051F1EC26400A7F9A3 /* TarArchive.cs */,
+				53E20A061F1EC26400A7F9A3 /* TarBuffer.cs */,
+				53E20A071F1EC26400A7F9A3 /* TarEntry.cs */,
+				53E20A081F1EC26400A7F9A3 /* TarException.cs */,
+				53E20A091F1EC26400A7F9A3 /* TarHeader.cs */,
+				53E20A0A1F1EC26400A7F9A3 /* TarInputStream.cs */,
+				53E20A0B1F1EC26400A7F9A3 /* TarOutputStream.cs */,
+			);
+			path = Tar;
+			sourceTree = "<group>";
+		};
+		53E20A0C1F1EC26400A7F9A3 /* Zip */ = {
+			isa = PBXGroup;
+			children = (
+				53E20A0D1F1EC26400A7F9A3 /* Compression */,
+				53E20A1C1F1EC26400A7F9A3 /* FastZip.cs */,
+				53E20A1D1F1EC26400A7F9A3 /* IEntryFactory.cs */,
+				53E20A1E1F1EC26400A7F9A3 /* WindowsNameTransform.cs */,
+				53E20A1F1F1EC26400A7F9A3 /* ZipConstants.cs */,
+				53E20A201F1EC26400A7F9A3 /* ZipEntry.cs */,
+				53E20A211F1EC26400A7F9A3 /* ZipEntryFactory.cs */,
+				53E20A221F1EC26400A7F9A3 /* ZipException.cs */,
+				53E20A231F1EC26400A7F9A3 /* ZipExtraData.cs */,
+				53E20A241F1EC26400A7F9A3 /* ZipFile.cs */,
+				53E20A251F1EC26400A7F9A3 /* ZipHelperStream.cs */,
+				53E20A261F1EC26400A7F9A3 /* ZipInputStream.cs */,
+				53E20A271F1EC26400A7F9A3 /* ZipNameTransform.cs */,
+				53E20A281F1EC26400A7F9A3 /* ZipOutputStream.cs */,
+			);
+			path = Zip;
+			sourceTree = "<group>";
+		};
+		53E20A0D1F1EC26400A7F9A3 /* Compression */ = {
+			isa = PBXGroup;
+			children = (
+				53E20A0E1F1EC26400A7F9A3 /* Deflater.cs */,
+				53E20A0F1F1EC26400A7F9A3 /* DeflaterConstants.cs */,
+				53E20A101F1EC26400A7F9A3 /* DeflaterEngine.cs */,
+				53E20A111F1EC26400A7F9A3 /* DeflaterHuffman.cs */,
+				53E20A121F1EC26400A7F9A3 /* DeflaterPending.cs */,
+				53E20A131F1EC26400A7F9A3 /* Inflater.cs */,
+				53E20A141F1EC26400A7F9A3 /* InflaterDynHeader.cs */,
+				53E20A151F1EC26400A7F9A3 /* InflaterHuffmanTree.cs */,
+				53E20A161F1EC26400A7F9A3 /* PendingBuffer.cs */,
+				53E20A171F1EC26400A7F9A3 /* Streams */,
+			);
+			path = Compression;
+			sourceTree = "<group>";
+		};
+		53E20A171F1EC26400A7F9A3 /* Streams */ = {
+			isa = PBXGroup;
+			children = (
+				53E20A181F1EC26400A7F9A3 /* DeflaterOutputStream.cs */,
+				53E20A191F1EC26400A7F9A3 /* InflaterInputStream.cs */,
+				53E20A1A1F1EC26400A7F9A3 /* OutputWindow.cs */,
+				53E20A1B1F1EC26400A7F9A3 /* StreamManipulator.cs */,
+			);
+			path = Streams;
+			sourceTree = "<group>";
+		};
+		53E20A2C1F1EC26400A7F9A3 /* Properties */ = {
+			isa = PBXGroup;
+			children = (
+				53E20A2D1F1EC26400A7F9A3 /* AssemblyInfo.cs */,
+				53E20A2E1F1EC26400A7F9A3 /* Resources.Designer.cs */,
+				53E20A2F1F1EC26400A7F9A3 /* Resources.resx */,
+				53E20A301F1EC26400A7F9A3 /* Settings.Designer.cs */,
+				53E20A311F1EC26400A7F9A3 /* Settings.settings */,
+			);
+			path = Properties;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,8 +542,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53E20A5C1F1EC26400A7F9A3 /* StreamManipulator.cs in Resources */,
+				53E20A391F1EC26400A7F9A3 /* IChecksum.cs in Resources */,
+				53E20A5A1F1EC26400A7F9A3 /* InflaterInputStream.cs in Resources */,
+				53E20A6A1F1EC26400A7F9A3 /* app.conf in Resources */,
+				53E20A661F1EC26400A7F9A3 /* ZipHelperStream.cs in Resources */,
+				53E20A6E1F1EC26400A7F9A3 /* Resources.Designer.cs in Resources */,
+				53E20A601F1EC26400A7F9A3 /* ZipConstants.cs in Resources */,
+				53E20A4C1F1EC26400A7F9A3 /* TarException.cs in Resources */,
+				53E20A541F1EC26400A7F9A3 /* DeflaterPending.cs in Resources */,
+				53E20A3A1F1EC26400A7F9A3 /* StrangeCRC.cs in Resources */,
+				53E20A711F1EC26400A7F9A3 /* Settings.settings in Resources */,
 				5336F6F41F1EC0BC001D0F7A /* Assets.xcassets in Resources */,
+				53E20A521F1EC26400A7F9A3 /* DeflaterEngine.cs in Resources */,
+				53E20A741F1EC26400A7F9A3 /* VariantReportFrm.cs in Resources */,
+				53E20A4E1F1EC26400A7F9A3 /* TarInputStream.cs in Resources */,
+				53E20A4D1F1EC26400A7F9A3 /* TarHeader.cs in Resources */,
+				53E20A551F1EC26400A7F9A3 /* Inflater.cs in Resources */,
+				53E20A6D1F1EC26400A7F9A3 /* AssemblyInfo.cs in Resources */,
+				53E20A6C1F1EC26400A7F9A3 /* Program.cs in Resources */,
+				53E20A4A1F1EC26400A7F9A3 /* TarBuffer.cs in Resources */,
+				53E20A3C1F1EC26400A7F9A3 /* INameTransform.cs in Resources */,
+				53E20A3E1F1EC26400A7F9A3 /* NameFilter.cs in Resources */,
+				53E20A491F1EC26400A7F9A3 /* TarArchive.cs in Resources */,
+				53E20A631F1EC26400A7F9A3 /* ZipException.cs in Resources */,
+				53E20A5D1F1EC26400A7F9A3 /* FastZip.cs in Resources */,
+				53E20A681F1EC26400A7F9A3 /* ZipNameTransform.cs in Resources */,
+				53E20A691F1EC26400A7F9A3 /* ZipOutputStream.cs in Resources */,
+				53E20A591F1EC26400A7F9A3 /* DeflaterOutputStream.cs in Resources */,
+				53E20A3F1F1EC26400A7F9A3 /* PathFilter.cs in Resources */,
+				53E20A751F1EC26400A7F9A3 /* VariantReportFrm.Designer.cs in Resources */,
+				53E20A431F1EC26400A7F9A3 /* GZipException.cs in Resources */,
+				53E20A4B1F1EC26400A7F9A3 /* TarEntry.cs in Resources */,
+				53E20A6B1F1EC26400A7F9A3 /* dna.ico in Resources */,
+				53E20A651F1EC26400A7F9A3 /* ZipFile.cs in Resources */,
+				53E20A5B1F1EC26400A7F9A3 /* OutputWindow.cs in Resources */,
+				53E20A461F1EC26400A7F9A3 /* ICloneable.cs in Resources */,
+				53E20A611F1EC26400A7F9A3 /* ZipEntry.cs in Resources */,
+				53E20A481F1EC26400A7F9A3 /* InvalidHeaderException.cs in Resources */,
+				53E20A511F1EC26400A7F9A3 /* DeflaterConstants.cs in Resources */,
+				53E20A761F1EC26400A7F9A3 /* VariantReportFrm.resx in Resources */,
+				53E20A581F1EC26400A7F9A3 /* PendingBuffer.cs in Resources */,
+				53E20A381F1EC26400A7F9A3 /* CRC32.cs in Resources */,
 				5336F6F71F1EC0BC001D0F7A /* Main.storyboard in Resources */,
+				53E20A5E1F1EC26400A7F9A3 /* IEntryFactory.cs in Resources */,
+				53E20A701F1EC26400A7F9A3 /* Settings.Designer.cs in Resources */,
+				53E20A371F1EC26400A7F9A3 /* Adler32.cs in Resources */,
+				53E20A501F1EC26400A7F9A3 /* Deflater.cs in Resources */,
+				53E20A731F1EC26400A7F9A3 /* Variant Report.sln in Resources */,
+				53E20A571F1EC26400A7F9A3 /* InflaterHuffmanTree.cs in Resources */,
+				53E20A421F1EC26400A7F9A3 /* GZIPConstants.cs in Resources */,
+				53E20A471F1EC26400A7F9A3 /* SharpZipBaseException.cs in Resources */,
+				53E20A721F1EC26400A7F9A3 /* Variant Report.csproj in Resources */,
+				53E20A641F1EC26400A7F9A3 /* ZipExtraData.cs in Resources */,
+				53E20A451F1EC26400A7F9A3 /* GzipOutputStream.cs in Resources */,
+				53E20A3B1F1EC26400A7F9A3 /* FileSystemScanner.cs in Resources */,
+				53E20A441F1EC26400A7F9A3 /* GzipInputStream.cs in Resources */,
+				53E20A531F1EC26400A7F9A3 /* DeflaterHuffman.cs in Resources */,
+				53E20A561F1EC26400A7F9A3 /* InflaterDynHeader.cs in Resources */,
+				53E20A6F1F1EC26400A7F9A3 /* Resources.resx in Resources */,
+				53E20A411F1EC26400A7F9A3 /* WindowsPathUtils.cs in Resources */,
+				53E20A621F1EC26400A7F9A3 /* ZipEntryFactory.cs in Resources */,
+				53E20A5F1F1EC26400A7F9A3 /* WindowsNameTransform.cs in Resources */,
+				53E20A671F1EC26400A7F9A3 /* ZipInputStream.cs in Resources */,
+				53E20A3D1F1EC26400A7F9A3 /* IScanFilter.cs in Resources */,
+				53E20A401F1EC26400A7F9A3 /* StreamUtils.cs in Resources */,
+				53E20A4F1F1EC26400A7F9A3 /* TarOutputStream.cs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +635,7 @@
 				5336F6F01F1EC0BC001D0F7A /* ViewController.swift in Sources */,
 				5336F6EE1F1EC0BC001D0F7A /* AppDelegate.swift in Sources */,
 				5336F6F21F1EC0BC001D0F7A /* Document.swift in Sources */,
+				53E209EC1F1EC24700A7F9A3 /* VariantReportForm.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -511,6 +883,7 @@
 				5336F7131F1EC0BD001D0F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5336F7141F1EC0BD001D0F7A /* Build configuration list for PBXNativeTarget "Variant-ReportTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +892,7 @@
 				5336F7161F1EC0BD001D0F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5336F7171F1EC0BD001D0F7A /* Build configuration list for PBXNativeTarget "Variant-ReportUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +901,7 @@
 				5336F7191F1EC0BD001D0F7A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
