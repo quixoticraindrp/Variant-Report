@@ -23,7 +23,7 @@ import Cocoa
 
 class VariantReportForm: NSObject {
 	
-	fileprivate let configFile = "app.conf" // next make URL from string
+	fileprivate let configFile = "app.conf" 
 	fileprivate let configDir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
 	fileprivate enum customError: Error {
 		
