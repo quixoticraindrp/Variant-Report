@@ -4,7 +4,8 @@
 //
 //  Created by Bacil Donovan Warren on 7/17/17.
 //  Copyright © 2017 Quixotic Raindrop Software, LLC. All rights reserved.
-//Copyright (C) <year>  <name of author>
+
+// 
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -23,7 +24,7 @@ import Cocoa
 
 class VariantReportForm: NSObject {
 	
-	fileprivate let configFile = "app.conf" 
+	fileprivate let configFile = "app.conf"
 	fileprivate let configDir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
 	fileprivate enum customError: Error {
 		
