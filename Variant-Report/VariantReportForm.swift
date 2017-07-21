@@ -3,9 +3,9 @@
 //  Variant-Report
 //
 //  Created by Bacil Donovan Warren on 7/17/17.
-//  Copyright © 2017 Quixotic Raindrop Software, LLC. All rights reserved.
+//  Copyright © 2017 Quixotic Raindrop Software, LLC.
 
-// 
+// Swift version of C# files, originally by Felix Immanuel (@fiidau at GitHub)
 
 // This program is free software: you can redistribute it and/or modify
 // it under the terms of the GNU General Public License as published by
@@ -22,19 +22,43 @@
 
 import Cocoa
 
-class VariantReportForm: NSObject {
+class VariantReportForm {
 	
-	fileprivate let configFile = "app.conf"
+	fileprivate let configFile = "app.conf" // could also prompt for a config file, or use
+											// UserPrefs to specify config file name & location
 	fileprivate let configDir = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
-	fileprivate enum customError: Error {
+	fileprivate var configFull: URL?
+	fileprivate var configContents: String?
+//	fileprivate enum customError: Error {
+//		
+//		case NoDir(String)
+//		case NoPath(String)
+//		case NoRead(String)
+//		
+//	} // END customError
+	
+	fileprivate func checkForConfigFile() -> Bool {
 		
-		case NoDir(String)
-		case NoPath(String)
-		case NoRead(String)
+		do {
+			
+			self.configContents = try String(contentsOf: configFull!)
+			return true
+			
+		}
+		catch {
+			
+			print("Couldn't read config file app.conf: \(error)")
+			return false // but also need to prevent further action, or prompt OpenSheet
+			
+		}
+		
 		
 	}
 	
-	fileprivate func getAutosomalText(_ file: String) -> String {
+	
+		
+	
+	public func getAutosomalText(_ file: String) -> String {
 		
 		var fileContents = ""
 		let directory = FileManager.default.urls(for: .documentDirectory, in: .userDomainMask)[0]
@@ -78,6 +102,13 @@ class VariantReportForm: NSObject {
 	//		let inputFile =
 	//
 	//	} // END func generateReport()
+	
+	init() {
+		
+		self.configFull = self.configDir.appendingPathComponent(configFile)
+		self.checkForConfigFile()
+		
+	}
 	
 	
 }

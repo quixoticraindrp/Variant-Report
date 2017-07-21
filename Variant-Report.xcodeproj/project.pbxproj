@@ -14,6 +14,7 @@
 		5336F6F71F1EC0BC001D0F7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5336F6F51F1EC0BC001D0F7A /* Main.storyboard */; };
 		5336F7021F1EC0BD001D0F7A /* Variant_ReportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F7011F1EC0BD001D0F7A /* Variant_ReportTests.swift */; };
 		5336F70D1F1EC0BD001D0F7A /* Variant_ReportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5336F70C1F1EC0BD001D0F7A /* Variant_ReportUITests.swift */; };
+		53DBEAAB1F22A362001F329B /* DataConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53DBEAAA1F22A362001F329B /* DataConverter.swift */; };
 		53E209EC1F1EC24700A7F9A3 /* VariantReportForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53E209EB1F1EC24700A7F9A3 /* VariantReportForm.swift */; };
 		53E20A371F1EC26400A7F9A3 /* Adler32.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F01F1EC26400A7F9A3 /* Adler32.cs */; };
 		53E20A381F1EC26400A7F9A3 /* CRC32.cs in Resources */ = {isa = PBXBuildFile; fileRef = 53E209F11F1EC26400A7F9A3 /* CRC32.cs */; };
@@ -112,6 +113,7 @@
 		5336F7081F1EC0BD001D0F7A /* Variant-ReportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Variant-ReportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5336F70C1F1EC0BD001D0F7A /* Variant_ReportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Variant_ReportUITests.swift; sourceTree = "<group>"; };
 		5336F70E1F1EC0BD001D0F7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		53DBEAAA1F22A362001F329B /* DataConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataConverter.swift; sourceTree = "<group>"; };
 		53E209EB1F1EC24700A7F9A3 /* VariantReportForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VariantReportForm.swift; sourceTree = "<group>"; };
 		53E209F01F1EC26400A7F9A3 /* Adler32.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Adler32.cs; sourceTree = "<group>"; };
 		53E209F11F1EC26400A7F9A3 /* CRC32.cs */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CRC32.cs; sourceTree = "<group>"; };
@@ -284,6 +286,7 @@
 		53E209EA1F1EC23400A7F9A3 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				53DBEAAA1F22A362001F329B /* DataConverter.swift */,
 				53E209EB1F1EC24700A7F9A3 /* VariantReportForm.swift */,
 			);
 			name = Model;
@@ -633,6 +636,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5336F6F01F1EC0BC001D0F7A /* ViewController.swift in Sources */,
+				53DBEAAB1F22A362001F329B /* DataConverter.swift in Sources */,
 				5336F6EE1F1EC0BC001D0F7A /* AppDelegate.swift in Sources */,
 				5336F6F21F1EC0BC001D0F7A /* Document.swift in Sources */,
 				53E209EC1F1EC24700A7F9A3 /* VariantReportForm.swift in Sources */,

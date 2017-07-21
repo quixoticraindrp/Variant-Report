@@ -125,19 +125,19 @@ namespace Variant_Report
 
         private void bwGenReport_DoWork(object sender, DoWorkEventArgs e)
         {           
-            string input_file = e.Argument.ToString();
-            string at_text = getAutosomalText(input_file);
-            StringReader reader = new StringReader(at_text);
+            string input_file = e.Argument.ToString();			// convert input file something into a string
+            string at_text = getAutosomalText(input_file);		// call VRForm.gAT() ...
+            StringReader reader = new StringReader(at_text);	// Read the string (?!)
             string line = null;
-            char[] delim = new char[] {'\t',','};
+            char[] delim = new char[] {'\t',','};				// two delimiters for token separation
             string[] data = null;
             //report rsid, allele
-            Dictionary<string, string> user_data = new Dictionary<string, string>();
-            while((line = reader.ReadLine())!=null)
+            Dictionary<string, string> user_data = new Dictionary<string, string>(); //
+            while((line = reader.ReadLine())!=null) // read one line at at time
             {
                 if (line.StartsWith("#") || line.StartsWith("RSID") || line.StartsWith("rsid"))
-                    continue;
-                line = line.Replace("\"", "");
+                    continue; // skipping comment lines
+                line = line.Replace("\"", ""); // swap backslashses for 
                 data = line.Split(delim);
                 if (data.Length == 5)
                 {
